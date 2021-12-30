@@ -1,0 +1,15 @@
+[29-Dec-2021 18:42:09 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/public/index.php on line 34
+[29-Dec-2021 18:42:09 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/public/index.php on line 34
+[29-Dec-2021 18:48:34 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/public/index.php on line 34
+[29-Dec-2021 18:48:34 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/public/index.php on line 34
+[29-Dec-2021 18:48:34 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/public/index.php on line 34
+[29-Dec-2021 18:48:34 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/public/index.php on line 34
