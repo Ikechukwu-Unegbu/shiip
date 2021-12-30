@@ -1,0 +1,30 @@
+[29-Dec-2021 18:33:47 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:33:47 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:34:30 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:34:30 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:35:48 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:35:48 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:47:32 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:47:32 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:47:44 America/New_York] PHP Warning:  require(/home/digixyrh/side/shiip/vendor/autoload.php): Failed to open stream: No such file or directory in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:47:44 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digixyrh/side/shiip/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digixyrh/side/shiip/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/digixyrh/side/shiip/artisan on line 18
+[29-Dec-2021 18:48:58 America/New_York] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/digixyrh/side/shiip/bootstrap/app.php:14
+Stack trace:
+#0 /home/digixyrh/side/shiip/artisan(20): require_once()
+#1 {main}
+  thrown in /home/digixyrh/side/shiip/bootstrap/app.php on line 14
