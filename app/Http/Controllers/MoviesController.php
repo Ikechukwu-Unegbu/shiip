@@ -3,12 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Repository\UserRepositoryInterface;
-use App\Repository\Eloquent\MovieRepository;
 use App\Repository\MovieRepositoryInterface;
 use Illuminate\Support\Facades\Auth;
 use App\Repository\LocationRepositoryInterface;
-
+use Illuminate\Support\Facades\Session;
 class MoviesController extends Controller
 {
 
@@ -24,6 +22,7 @@ class MoviesController extends Controller
 
         $this->locationRepository = $locationRepository;
         $locations = $this->locationRepository->all();
+        
         return view('pages.movies.create')->with('locations', $locations);
     }
 
@@ -41,5 +40,7 @@ class MoviesController extends Controller
        
         // var_dump($payload);die;
         $this->movieRepository->create($payload);
+        Session::flash('success', "New movie Created");
+        return redirect()->route('new_movie');
     }
 }

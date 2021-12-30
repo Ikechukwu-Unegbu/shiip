@@ -29,6 +29,8 @@
                     <main>
                       <form action="/dashboard/movies/store" method="post">
                         @csrf
+                        <h2>New Movie</h2>
+                        @include('partials._message')
                         <input name="title" type="text" placeholder="Movie Title Here">
 
                         <input type="text" name="showtime" placeholder="Movie Date and Time Here">
@@ -37,7 +39,10 @@
                           <option value="">Festac</option>
                           <option value="">Aja</option>
                         </select>
+                        <div>
                         <input type="text" name="poster" placeholder="Movie Poster Link Here">
+                        <small>Please use image link from a CDN source like UNSPLASH.COM. Had to do it this way since I was racing against time.</small>
+                        </div>
                         <textarea  name="description" id="" cols="30" rows="10" placeholder="Movie Description here."></textarea>
                         <button class="button">
                           Add New Movie Show

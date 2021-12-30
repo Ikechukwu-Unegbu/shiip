@@ -23,7 +23,7 @@ use App\Http\Controllers\PageController;
 // });
 
 Route::get('/', [PageController::class, 'home']);
-Route::get('/dashboard/movies/new', [MoviesController::class, 'create'])->middleware(['auth']);
+Route::get('/dashboard/movies/new', [MoviesController::class, 'create'])->middleware(['auth'])->name('new_movie');
 Route::post('/dashboard/movies/store', [MoviesController::class, 'store'])->middleware(['auth']);
 Route::get('/dashboard/location/new', [LocationController::class, 'create'])->middleware(['auth'])->name('new_location');
 Route::post('/dashboard/location/store', [LocationController::class, 'store'])->middleware(['auth']);
