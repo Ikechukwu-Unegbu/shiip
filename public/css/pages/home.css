@@ -1,0 +1,96 @@
+
+
+.hero_title{
+font-family: Cabin;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+color: white;
+/* line-height: 78px; */
+
+/* color: #000000; */
+}
+
+#menu{
+  /* display: grid;
+  grid-template-columns: 1fr 9fr; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  /* align-items: center; */
+
+  padding-top: 1rem;
+}
+
+#nav{
+  float: left;
+}
+ul{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  grid-gap: 1.5rem;
+
+}
+ul li a{
+  font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+text-decoration: none;
+}
+
+.myName{
+  font-family: Maven Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}
+
+/* main{
+  background-color: black;
+} */
+#hero_section{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 0 10px gray;
+  margin-top: 1rem;
+  /* background-color: aqua; */
+  background-image: url("https://media.istockphoto.com/photos/cloud-computing-picture-id1318623693");
+  /* background-image: url("/public/siteImg/Rectangle\ 9565bg.jpg"); */
+}
+#hero_left{
+  width: 60%;
+}
+#hero_right{
+width: 40%;
+}
+
+#hero_right img{
+  width: 100%;
+}
+
+.btn_container{
+
+}
+
+.btn{
+ 
+  /* padding: 0.4rem;
+  height: 0.6rem;
+  width: 8rem; */
+  /* background-color: black;
+  border-style: none;
+  height: 1rem;
+  width: 10rem; */
+  color: white;
+}
