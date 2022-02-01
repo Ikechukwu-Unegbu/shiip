@@ -4,3 +4,11 @@
   padding-right: 3rem;
   width: 100%;
 }
+
+.footer{
+  background-color: #122AFF;
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 2rem;
+}

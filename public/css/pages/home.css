@@ -6,9 +6,6 @@ font-style: normal;
 font-weight: bold;
 font-size: 45px;
 color: white;
-/* line-height: 78px; */
-
-/* color: #000000; */
 }
 
 #menu{
@@ -18,7 +15,9 @@ color: white;
   flex-direction: row;
   justify-content:space-between;
   /* align-items: center; */
-
+  /* position:fixed; */
+  /* position: absolute; */
+  top: 0;
   padding-top: 1rem;
 }
 
@@ -38,8 +37,10 @@ ul li a{
 font-weight: normal;
 font-size: 20px;
 line-height: 24px;
+font-weight: bold;
 
 text-decoration: none;
+color: #122AFF;
 }
 
 .myName{
@@ -80,7 +81,7 @@ width: 40%;
 }
 
 .btn_container{
-
+  margin-top: 3rem;
 }
 
 .btn{
@@ -94,3 +95,29 @@ width: 40%;
   width: 10rem; */
   color: white;
 }
+
+.stacks{
+ /* display: flex;
+ flex-direction: row; */
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  height: fit-content;
+}
+
+.stack{
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+
+.stack:hover{
+  /* height: 30rem; */
+  background-color: rgb(202, 201, 201);
+  padding:0.3rem;
+  /* margin: 3rem; */
+}
+
+.stacks .stack img{
+  width: 100%;
+}
+

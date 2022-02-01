@@ -11,9 +11,10 @@ class PageController extends Controller
 
     private $movieRepostory;
     public function home(MovieRepositoryInterface $movieRepository){
-        $this->movieRepostory = $movieRepository;
-        $movies = $this->movieRepostory->all();
-        //var_dump($movies);
-        return view('pages.home.index')->with('movies', $movies);
+        return view('pages.home.index');
+    }
+
+    public function contactpage(){
+        return view('pages.contactus.index');
     }
 }

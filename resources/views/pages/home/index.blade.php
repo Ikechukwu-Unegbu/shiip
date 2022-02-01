@@ -15,18 +15,7 @@ Home Page
 
 @section('content')
 <main class="container" id="container menu_header">
-  <nav  id="menu">
-    <div><b class="myName">Vincent.</b></div>
-    <div class="" id="nav">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="/contact">Contact Me</a></li>
-        <li><a href="/store">Store</a></li>
-      </ul>
-    </div>
-  </nav>
+  @include('partials._menu')
   <!-- list of movies -->
   <style>
     .btn{
@@ -51,5 +40,32 @@ Home Page
       <!-- <img src="https://media.istockphoto.com/photos/suspicious-young-man-looking-at-camera-through-magnifier-picture-id1198224243" alt=""> -->
     </div>
   </div>
+  <div class="stack_section">
+    <h2>My Stack</h2>
+    <div class="stacks">
+      <div class="stack" id="stack">
+        <img src="{{asset('siteImg/solidity.jpg')}}" alt="">
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eum odio minima?</p>
+        </div>
+      </div>
+      <div class="stack" id="stack">
+        <img src="{{asset('siteImg/solidity.jpg')}}" alt="">
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eum odio minima?</p>
+        </div>
+      </div>
+      <div class="stack" id="stack" >
+        <img src="{{asset('siteImg/solidity.jpg')}}" alt="">
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eum odio minima?</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
 </main>
+@include('partials._footer')
 @endsection
+
