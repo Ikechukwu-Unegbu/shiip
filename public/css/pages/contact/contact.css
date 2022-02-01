@@ -44,6 +44,11 @@ textarea{
   padding: 0.5rem;
 }
 
+.contact_btn{
+  background-color: #CFCFCF;
+  font-weight: bold;
+}
+
 .deet{
   display:flex;
   flex-direction: row;
@@ -62,4 +67,6 @@ textarea{
 .details span{
   font-weight: bold;
   font-size: larger;
+  justify-self: center;
+  align-self: center;
 }

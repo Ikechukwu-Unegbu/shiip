@@ -12,3 +12,41 @@
   overflow: hidden;
   margin-top: 2rem;
 }
+
+.plain_footer{
+  /* background-color: #122AFF; */
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.footer_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 3rem;
+}
+
+.footer_left{
+  display: flex;
+  grid-gap: 1.5rem;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0.3rem;
+}
+
+.footer_right button{
+  border: none;
+  background-color: whitesmoke;
+  width: 10rem;
+  color: black;
+  border-radius: 5px;
+
+}

@@ -1,5 +1,5 @@
 <nav  id="menu">
-  <div><b class="myName">Vincent.</b></div>
+  <div><b class="myName">Vincent.exe</b></div>
   <div class="" id="nav">
     <ul>
       <li><a href="/">Home</a></li>

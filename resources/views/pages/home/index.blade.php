@@ -40,31 +40,9 @@ Home Page
       <!-- <img src="https://media.istockphoto.com/photos/suspicious-young-man-looking-at-camera-through-magnifier-picture-id1198224243" alt=""> -->
     </div>
   </div>
-  <div class="stack_section">
-    <h2>My Stack</h2>
-    <div class="stacks">
-      <div class="stack" id="stack">
-        <img src="{{asset('siteImg/solidity.jpg')}}" alt="">
-        <div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eum odio minima?</p>
-        </div>
-      </div>
-      <div class="stack" id="stack">
-        <img src="{{asset('siteImg/solidity.jpg')}}" alt="">
-        <div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eum odio minima?</p>
-        </div>
-      </div>
-      <div class="stack" id="stack" >
-        <img src="{{asset('siteImg/solidity.jpg')}}" alt="">
-        <div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eum odio minima?</p>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
+  <!-- stack section -->
+    @include('pages.home.stacks')
+  <!-- end of stack section -->
 </main>
 @include('partials._footer')
 @endsection

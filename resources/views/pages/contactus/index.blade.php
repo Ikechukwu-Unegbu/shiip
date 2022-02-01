@@ -32,11 +32,15 @@ Home Page
         <i class="fas fa-2x fa-map-marker-alt"></i>
         <span>Enugu Nigeria</span>
       </div>
+      <div>
+        <img src="{{asset('siteImg/email.png')}}" alt="">
+      </div>
     </div>
     <div class="form">
       <input type="text" placeholder="Your Name Please" class="form_input">
       <input type="text" class="form_input" placeholder="Your Email Please">
       <textarea name="" id="" placeholder="Your Message?" cols="30" rows="10"></textarea>
+      <button style="background-color: #CFCFCF;" class="btn contact_btn">Send</button>
     </div>
   </div>
 </main>
