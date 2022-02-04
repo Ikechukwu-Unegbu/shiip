@@ -8,41 +8,6 @@ font-size: 45px;
 color: white;
 }
 
-#menu{
-  /* display: grid;
-  grid-template-columns: 1fr 9fr; */
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  /* align-items: center; */
-  /* position:fixed; */
-  /* position: absolute; */
-  top: 0;
-  padding-top: 1rem;
-}
-
-#nav{
-  float: left;
-}
-ul{
-  float: left;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  grid-gap: 1.5rem;
-
-}
-ul li a{
-  font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
-font-weight: bold;
-
-text-decoration: none;
-color: #122AFF;
-}
-
 .myName{
   font-family: Maven Pro;
 font-style: normal;
@@ -77,7 +42,7 @@ width: 40%;
 }
 
 #hero_right img{
-  width: 100%;
+  width:inherit;
 }
 
 .btn_container{
@@ -110,6 +75,7 @@ width: 40%;
  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   height: fit-content;
+  margin-bottom: 1.4rem;
 }
 
 .stack{
@@ -132,3 +98,7 @@ width: 40%;
   height: 60%;
 }
 
+
+@media(max-width:700px){
+
+}

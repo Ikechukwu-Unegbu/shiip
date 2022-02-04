@@ -17,4 +17,8 @@ class PageController extends Controller
     public function contactpage(){
         return view('pages.contactus.index');
     }
+
+    public function portfolio(){
+        return view('pages.portfolio.index');
+    }
 }
