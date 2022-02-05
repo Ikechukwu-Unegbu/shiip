@@ -25,6 +25,8 @@ use App\Http\Controllers\PageController;
 Route::get('/', [PageController::class, 'home']);
 Route::get('/contact', [PageController::class, 'contactPage']);
 Route::get('/portfolio', [PageController::class, 'portfolio']);
+Route::get('/blog', [PageController::class, 'blogPage']);
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

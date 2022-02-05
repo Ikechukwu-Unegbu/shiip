@@ -72,7 +72,7 @@
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/portfolio">Portfolio</a></li>
-      <li><a href="">Blog</a></li>
+      <li><a href="/blog">Blog</a></li>
       <li><a href="/contact"><i class="fab fa-whatsapp-square fa-2x"></i></a></li>
       <li><a href="/store">About</a></li>
     </ul>

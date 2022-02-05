@@ -21,4 +21,8 @@ class PageController extends Controller
     public function portfolio(){
         return view('pages.portfolio.index');
     }
+
+    public function blogPage(){
+        return view('pages.blog.index');
+    }
 }
