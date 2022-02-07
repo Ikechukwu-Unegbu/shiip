@@ -29,7 +29,7 @@ Route::get('/blog', [PageController::class, 'blogPage']);
 
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('newDashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
