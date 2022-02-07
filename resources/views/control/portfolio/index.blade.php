@@ -1,6 +1,21 @@
 @extends('layouts.myApp')
 
 @section('content')
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <a class="btn btn-primary" href="">New Portfolio</a>
+    </div>
+    <div class="col">
+      <a href=""></a>
+    </div>
+    <div class="col">
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+<br>
+<br>
 <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card">

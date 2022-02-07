@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Blog\BlogController;
 use App\Http\Controllers\LocationController;
 use App\Http\Controllers\MoviesController;
 use Illuminate\Support\Facades\Route;
@@ -46,5 +47,7 @@ Route::get('dashboard/portfolio/{id}', [PortfolioController::class, 'show'])
 ->middleware(['auth'])
 ->name('portfolio.show');
 
-
+Route::get('/dashboard/blog', [BlogController::class, 'index'])
+->middleware(['auth'])
+->name('blog.index');
 require __DIR__.'/auth.php';
