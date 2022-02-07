@@ -5,7 +5,8 @@ use App\Http\Controllers\MoviesController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PageController;
-
+use App\Http\Controllers\Posts\PortfolioController;
+use App\Models\Posts\Portfolio;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,8 +29,22 @@ Route::get('/portfolio', [PageController::class, 'portfolio']);
 Route::get('/blog', [PageController::class, 'blogPage']);
 
 
+
 Route::get('/dashboard', function () {
     return view('newDashboard');
 })->middleware(['auth'])->name('dashboard');
+
+Route::get('/dashboard/portfolio',[PortfolioController::class, 'index'])
+->middleware(['auth'])
+->name('portfolio.index');
+
+Route::post('/dashboard/portfolio/post', [PortfolioController::class, 'post'])
+->middleware(['auth'])
+->name('portfolio.post');
+
+Route::get('dashboard/portfolio/{id}', [PortfolioController::class, 'show'])
+->middleware(['auth'])
+->name('portfolio.show');
+
 
 require __DIR__.'/auth.php';
