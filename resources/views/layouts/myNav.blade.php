@@ -23,21 +23,21 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file"></span>
-              Orders
+            <a class="nav-link" href="/dashboard/portfolio">
+            <i class="fas fa-briefcase"></i>
+              Portfolio
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="shopping-cart"></span>
-              Products
+            <a class="nav-link" href="/dashboard/blog">
+              <i class="fab fa-blogger"></i>
+              Blog
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="users"></span>
-              Customers
+            <a class="nav-link" href="/dashboard/contact">
+            <i class="fas fa-file-signature"></i>
+              Inquaries
             </a>
           </li>
           <li class="nav-item">
