@@ -43,6 +43,10 @@ Route::post('/dashboard/portfolio/post', [PortfolioController::class, 'post'])
 ->middleware(['auth'])
 ->name('portfolio.post');
 
+Route::get('/dashboard/create/portfolio', [PortfolioController::class, 'create'])
+->middleware(['auth'])
+->name('portfolio.new');
+
 Route::get('dashboard/portfolio/{id}', [PortfolioController::class, 'show'])
 ->middleware(['auth'])
 ->name('portfolio.show');

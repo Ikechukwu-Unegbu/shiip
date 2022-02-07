@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <a class="btn btn-primary" href="">New Portfolio</a>
+      <a class="btn btn-primary" href="/dashboard/create/portfolio">New Portfolio</a>
     </div>
     <div class="col">
       <a href=""></a>

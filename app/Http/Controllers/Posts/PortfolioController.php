@@ -10,4 +10,8 @@ class PortfolioController extends Controller
     public function index(){
         return view('control.portfolio.index');
     }
+
+    public function create(){
+        return view('control.portfolio.create');
+    }
 }
