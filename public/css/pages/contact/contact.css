@@ -70,3 +70,28 @@ textarea{
   justify-self: center;
   align-self: center;
 }
+
+@media(max-width:700px){
+  .contact_intro p{
+    text-align: center;
+    width: 80%;
+  }
+  .phone, .location{
+    display: none;
+    justify-content: center;
+  }
+  .details_form{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.form{
+  width: 100%;
+}
+}

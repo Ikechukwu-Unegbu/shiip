@@ -26,12 +26,18 @@ Home Page
       background-color: #122AFF;
       border-radius: 5px;
     }
+    .work{
+      grid-gap: 3rem;
+    }
+    .circular{
+      border-radius: 50%;
+    }
   </style>
   <div id="hero_section">
     <div id="hero_left">
-      <h2 class="hero_title">I Build Digital Products and Business Solutions</h2>
+      <h2 class="hero_title">I Build Business Solutions that Run on the Web</h2>
       <div class="btn_container">
-        <button class="btn button">Leave Message</button>
+        <a href="/contact" class="btn button">Leave Message</a>
         <a style="color: white;" class="btn" href="">Portfolio</a>
       </div>
     </div>
@@ -43,6 +49,9 @@ Home Page
   <!-- stack section -->
     @include('pages.home.stacks')
   <!-- end of stack section -->
+  <!-- achievment section -->
+    @include('pages.home.achievements')
+  <!-- end -->
 </main>
 @include('partials._footer')
 @endsection

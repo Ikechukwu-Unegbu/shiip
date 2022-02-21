@@ -94,8 +94,20 @@ color: #122AFF;
 
 }
 
-@media(max-width:800px){
+@media(max-width:750px){
 
+  .footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+  }
 
+  .footer_right{
+    margin-top: 1.6rem;
+  }
  
 }
