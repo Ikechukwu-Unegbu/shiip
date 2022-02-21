@@ -2,7 +2,12 @@ body{
 
 }
 
-
+.navbar-nav{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items:flex-start;
+}
 .bread_crumb{
   height: 2rem;
   width: 2rem;
