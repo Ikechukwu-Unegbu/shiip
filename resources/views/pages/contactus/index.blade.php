@@ -16,7 +16,7 @@ Home Page
 <main class="container contact_main" id="container menu_header">
   @include('partials._menu')
   <div class="contact_intro">
-    <p>Hi I am Vincent. Thank you for being here. You have a message? Kindly leave it below with your correct email and I will get back to you in an hour or less.</p>
+    <p>Hi I am Vincent, a highly skilled software developer. Thank you for being here. You have a message? Kindly leave it below with your correct email and I will get back to you in an hour or less.</p>
   </div>
   <div class="details_form">
     <div class="details">
