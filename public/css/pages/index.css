@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
 body{
 
 }
-
+h1,h2, h3, h4, h5{
+  font-family: 'Nunito', sans-serif !important;
+  font-weight:bolder !important;
+}
 .navbar-nav{
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items:flex-start;
 }
+
+
 .bread_crumb{
   height: 2rem;
   width: 2rem;

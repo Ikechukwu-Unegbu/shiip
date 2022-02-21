@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Blog\BlogController;
+use App\Http\Controllers\Interaction\ContactController;
 use App\Http\Controllers\LocationController;
 use App\Http\Controllers\MoviesController;
 use Illuminate\Support\Facades\Route;
@@ -25,11 +26,13 @@ use App\Models\Posts\Portfolio;
 // });
 
 Route::get('/', [PageController::class, 'home']);
-Route::get('/contact', [PageController::class, 'contactPage']);
+Route::get('/contact', [PageController::class, 'contactPage'])->name('contact.index');
 Route::get('/portfolio', [PageController::class, 'portfolio']);
 Route::get('/blog', [PageController::class, 'blogPage']);
 
 
+
+Route::post('/contact', [ContactController::class, 'sendContactMessage'])->name('contact.send');
 
 Route::get('/dashboard', function () {
     return view('newDashboard');

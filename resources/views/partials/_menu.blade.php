@@ -49,7 +49,7 @@
             <a href="/portfolio" class="nav-link">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a href="/contact" class="nav-link">Contact Me</a>
+            <a href="https://api.whatsapp.com/send?phone=+2348064133376" class="nav-link">Contact Me</a>
           </li>
           <li class="nav-item">
             <a href="/blog" class="nav-link">My Blog</a>

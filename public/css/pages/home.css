@@ -35,11 +35,11 @@ line-height: 42px;
   /* background-image: url("/public/siteImg/Rectangle\ 9565bg.jpg"); */
 }
 #hero_left{
-  width: 60%;
+  width: 85%;
 }
-#hero_right{
+/* #hero_right{
 width: 40%;
-}
+} */
 
 #hero_right img{
   width:inherit;
