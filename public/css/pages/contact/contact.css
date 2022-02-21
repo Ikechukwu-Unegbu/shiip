@@ -71,7 +71,7 @@ textarea{
   align-self: center;
 }
 
-@media(max-width:700px){
+@media(max-width:780px){
   .contact_intro p{
     text-align: center;
     width: 80%;
