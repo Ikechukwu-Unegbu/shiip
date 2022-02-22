@@ -104,15 +104,15 @@ width: 40%;
 }
 
 .custom_card{
-  height:25rem;
-  width: 33.333%;
+  /* height:25rem;
+  width: 33.333%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   /* border-radius: 10%; */
-  background-color: #dddcf2;
+  /* background-color: #dddcf2; */
   padding: 1.3rem;
 }
 .d-sm-flex{

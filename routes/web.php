@@ -35,7 +35,7 @@ Route::get('/blog', [PageController::class, 'blogPage']);
 Route::post('/contact', [ContactController::class, 'sendContactMessage'])->name('contact.send');
 
 Route::get('/dashboard', function () {
-    return view('newDashboard');
+    return view('dashboard.home.index');
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('/dashboard/portfolio',[PortfolioController::class, 'index'])
@@ -53,6 +53,8 @@ Route::get('/dashboard/create/portfolio', [PortfolioController::class, 'create']
 Route::get('dashboard/portfolio/{id}', [PortfolioController::class, 'show'])
 ->middleware(['auth'])
 ->name('portfolio.show');
+
+Route::get('/dashboard/contact', [ContactController::class, 'contactIndex'])->middleware(['auth'])->name('contact.index');
 
 Route::get('/dashboard/blog', [BlogController::class, 'index'])
 ->middleware(['auth'])

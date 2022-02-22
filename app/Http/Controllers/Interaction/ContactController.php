@@ -34,4 +34,9 @@ class ContactController extends Controller
 
         return redirect()->route('contact.index');
     }
+
+    public function contactIndex(){
+        
+        return view('dashboard.contact.index');
+    }
 }
